@@ -29,7 +29,7 @@ public class User {
     private String password;
 
     @OneToMany(mappedBy = "user")
-    private List<Task> tasks; // Mudança aqui para List<Task>
+    private List<Task> tasks; 
 
     public User() {
     }
